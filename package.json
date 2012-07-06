@@ -1,0 +1,23 @@
+{
+  "author": "Jared Barboza <jared.m.barboza@gmail.com> (http://codeimpossible.com)",
+  "name": "Oqueryjs",
+  "description": "A object query library for JavaScript",
+  "version": "0.0.1",
+  "homepage": "http://codeimpossible.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeimpossible/oqueryjs.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.6.11"
+  },
+  "dependencies": {
+    "mocha": "*"
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
