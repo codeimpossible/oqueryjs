@@ -28,5 +28,13 @@ describe('OQuery', function(){
       assert.equal(11, result.test_again);
     });
 
+    it('should extend results with a $ea enumerator function', function() {
+      var items = [{ hi: "hello", bye: "good-bye"}, { hi: "hello", bye: "good-bye"}];
+      var results = oquery.from( items ).select();
+
+      assert.ok( results["$ea"] );
+      assert.equal( typeof(Function), typeof(results["$ea"]) );
+    });
+
   });
 });

@@ -2,7 +2,7 @@
   "author": "Jared Barboza <jared.m.barboza@gmail.com> (http://codeimpossible.com)",
   "name": "Oqueryjs",
   "description": "A object query library for JavaScript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://codeimpossible.com",
   "repository": {
     "type": "git",
