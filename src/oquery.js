@@ -179,7 +179,7 @@
           o['$base'] = window['$base'];
           window['$base'] = null;
 
-          for (key in t) {
+          for (var key in t) {
             o[key] = t[key];
           }
 
